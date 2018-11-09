@@ -123,18 +123,15 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-            <properties>
-              // <sonar.host.url>http://localhost:9000/</sonar.host.url>
-     <sonar-maven-plugin.version>3.3.0.603</sonar-maven-plugin.version>
-            </properties>
             <build>
-              <plugins>
+             <!-- <plugins>
                 <plugin>
                     <groupId>org.sonarsource.scanner.maven</groupId>
                     <artifactId>sonar-maven-plugin</artifactId>
                     <version>${sonar-maven-plugin.version}</version>
                 </plugin>
               </plugins>
+-->
             </build>
         </profile>
   </profiles>
