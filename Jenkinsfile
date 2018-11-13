@@ -11,21 +11,37 @@ node {
        }
 
        stage('Compiling'){
+	       def mvn_version = 'maven'
+         withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] )
+	       {
 
           sh 'mvn clean install'
+	       }
        }
 	   
       stage('Sonar') {
                     //add stage sonar
+	      def mvn_version = 'maven'
+         withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] )
+	      {
                     sh 'mvn sonar:sonar'
+	      }
                 }
 	    
 	stage('Checkstyle') {
+		def mvn_version = 'maven'
+         withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] )
+		{
                     sh 'mvn checkstyle:checkstyle'
+		}
                 }
 
                stage('PMD') {
+		       def mvn_version = 'maven'
+         withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] )
+		       {
                     sh 'mvn pmd:check'
+		       }
                 }
       /* stage('mail'){
 
