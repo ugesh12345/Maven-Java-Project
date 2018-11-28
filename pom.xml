@@ -106,12 +106,12 @@
 	<repository>
 	<id>nexus</id>
 	<name>DevOpsTools</name>
-	<url>http://54.206.32.22:8081/repository/Maven-JavaRelease/</url>
+	<url>http://13.210.70.174:8081/repository/Maven-JavaRelease/</url>
 	</repository>
 	<snapshotRepository>
 	<id>nexus</id>
 	<name>DevOpsToolSnapshot</name>
-	<url>http://54.206.32.22:8081/repository/Maven-JavaSnapshot/</url>
+	<url>http://13.210.70.174:8081/repository/Maven-JavaSnapshot/</url>
 	</snapshotRepository>
 	</distributionManagement>	
 
