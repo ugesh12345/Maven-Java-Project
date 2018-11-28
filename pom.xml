@@ -10,10 +10,7 @@
   <name>Maven Web Project</name>
   <description>Maven java Project for Java</description>
 
- <organization>
-     <name>Mithun Technologies</name>
-     <url>http://mithuntechnologies.com/</url>
- </organization>
+ 
 
   <properties>
 	    <spring.version>4.1.4.RELEASE</spring.version>
@@ -32,16 +29,16 @@
   </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/devopstrainingblr/Maven-Java-Project</connection>
-        <developerConnection>scm:git:https://github.com/devopstrainingblr/Maven-Java-Project</developerConnection>
+        <connection>scm:git:https://github.com/ugesh12345/Maven-Java-Project.git</connection>
+        <developerConnection>scm:git:https://github.com/ugesh12345/Maven-Java-Project.git</developerConnection>
         <tag>HEAD</tag>
-        <url>https://github.com/devopstrainingblr/Maven-Java-Project</url>
+        <url>https://github.com/ugesh12345/Maven-Java-Project.git</url>
     </scm>
 	
     <issueManagement>
         <system>GitHub
 	    </system>
-        <url>https://github.com/devopstrainingblr/Maven-Java-Project/issues</url>
+        <url>https://https://github.com/ugesh12345/Maven-Java-Project.git</url>
     </issueManagement>
 	
 	
