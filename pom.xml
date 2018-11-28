@@ -12,7 +12,7 @@
 
  
 
-  <!--<properties>
+  <properties>
 	    <spring.version>4.1.4.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
@@ -27,7 +27,7 @@
      	<sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
         <sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
   </properties> 
-     -->
+     
 
     <scm>
         <connection>scm:git:https://github.com/ugesh12345/Maven-Java-Project.git</connection>
