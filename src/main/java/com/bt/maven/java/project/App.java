@@ -9,10 +9,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("Hello UgeshR!");
+        System.out.println("Hello Ugesh!");
     }
     public void main1(  )
     {
-        System.out.println("Hello UgeshR!");
+        System.out.println("Hello Ugesh!");
     }
 }
