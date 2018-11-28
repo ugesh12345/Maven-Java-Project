@@ -101,19 +101,19 @@
 		-->
   </dependencies>
 
- <!-- <distributionManagement>
+ <distributionManagement>
 	<repository>
 	<id>nexus</id>
-	<name>DevOpsToolsTesting</name>
-	<url>http://54.212.202.190:8081/repository/mavenjava-release/</url>
+	<name>DevOpsTools</name>
+	<url>http://54.206.32.22:8081/repository/Maven-JavaRelease/</url>
 	</repository>
 	<snapshotRepository>
 	<id>nexus</id>
-	<name>DevOpsToolsTesting</name>
-	<url>http://54.212.202.190:8081/repository/mavenjava-snapshot/</url>
+	<name>DevOpsToolSnapshot</name>
+	<url>http://54.206.32.22:8081/repository/Maven-JavaSnapshot/</url>
 	</snapshotRepository>
 	</distributionManagement>	
--->
+
    <profiles>
         <profile>
             <id>sonar</id>
